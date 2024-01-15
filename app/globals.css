@@ -9,6 +9,9 @@
   box-sizing: border-box;
 }
 
+a {
+  cursor: pointer;
+}
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
@@ -64,4 +67,67 @@ body {
   border: 1px solid rgba(175, 179, 206, 0.089);
 
   background: #0c0c0c;
+}
+
+/*    TEXT GRADIENT */
+.text-gradient {
+  background: linear-gradient(
+    90deg,
+    #fff -4.05%,
+    #fff 30.03%,
+    rgba(255, 255, 255, 0) 110.01%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-bg {
+  top: -100px;
+
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.help-bg {
+  min-height: 120px;
+  padding: 30px 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(/home/help-item-bg.png) no-repeat center top/100% auto;
+}
+.video-section {
+  position: relative;
+
+  border-radius: 17px;
+  background: #131314;
+  border: 1px solid #292929;
+}
+
+.video-button {
+  font-size: 30px;
+  color: #f2de97;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 0.3s;
+}
+
+.video-button:hover {
+  color: #caab3e;
+}
+
+/*    IFRAME  */
+.iframe-model {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  background: #000;
 }

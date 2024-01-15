@@ -1,19 +1,22 @@
 import Link from "next/link";
 import React from "react";
 
-export const Heading1 = ({ children, styles = "text-light-black" }) => {
+export const Heading1 = ({ children, styles = "text-[45px] font-medium " }) => {
   return (
     <h1
-      className={`font-normal text-[30px] sm:text-[46px] leading-[40px] sm:leading-[64.4px]  ${styles}`}
+      className={`  ${styles} text-gradient leading-[30px] sm:leading-[44px] `}
     >
       {children}
     </h1>
   );
 };
-export const Heading2 = ({ children, styles = "text-light-black" }) => {
+export const Heading2 = ({
+  children,
+  styles = "text-[20px] custom-md:text-[26px] font-medium text-center",
+}) => {
   return (
     <h2
-      className={`font-normal text-[25px] sm:text-[32px] leading-[30px] sm:leading-[44.8px]  ${styles}`}
+      className={`${styles} text-gradient leading-[25px] sm:leading-[31.4px]  `}
     >
       {children}
     </h2>
@@ -42,12 +45,11 @@ export const PLarge = ({
   );
 };
 
-export const PSmall = ({
-  children,
-  styles = "text-light-black font-normal",
-}) => {
+export const PSmall = ({ children, styles = "" }) => {
   return (
-    <p className={` text-[12px] sm:text-[14px] leading-[17px]  ${styles}`}>
+    <p
+      className={`${styles} text-[10px] custom-md:text-[12px] font-normal text-center custom-md:text-start`}
+    >
       {children}
     </p>
   );
