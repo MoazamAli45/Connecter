@@ -11,7 +11,7 @@ const Video = () => {
   return (
     <section className="my-[40px] ">
       <Wrapper>
-        <div className="video-section  max-w-[1100px] h-[300px] sm:h-[500px] custom-md:h-[650px] mx-auto">
+        <div className="video-section  max-w-[1000px] h-[300px] sm:h-[500px] custom-md:h-[650px] mx-auto">
           <Image
             src={"/home/thumbnail.webp"}
             alt="video"
@@ -26,7 +26,7 @@ const Video = () => {
               setShowModal(true);
             }}
           >
-            <FaPlay className="video-button cursor-pointer" />
+            <FaPlay className="video-button cursor-pointer text-[30px] custom-md:text-[44px]" />
           </a>
         </div>
       </Wrapper>

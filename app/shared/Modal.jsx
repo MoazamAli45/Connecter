@@ -29,7 +29,7 @@ const Modal = ({
       {isOpen && (
         <div className="modal fixed w-full h-full top-0 left-0 flex items-center justify-center z-10 ">
           <div
-            className="modal-overlay absolute w-full h-full bg-gray-900 opacity-90 border"
+            className="modal-overlay absolute w-full h-full bg-gray-900 opacity-70 border"
             onClick={handleOverlayClick}
           ></div>
 
@@ -37,7 +37,7 @@ const Modal = ({
             {/*   CLOSE ICON */}
             <div className="flex justify-end pr-[10px] py-[5px] ">
               <IoClose
-                className="text-[#ffffff] text-right text-[20px] z-10 cursor-pointer"
+                className="text-[#ffffff] opacity-50 hover:opacity-100 text-right text-[20px] z-10 cursor-pointer"
                 onClick={() => setIsOpen(false)}
               />
             </div>
