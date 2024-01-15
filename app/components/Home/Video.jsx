@@ -11,7 +11,7 @@ const Video = () => {
   return (
     <section className="my-[40px] ">
       <Wrapper>
-        <div className="video-section  max-w-[1000px] h-[300px] sm:h-[500px] custom-md:h-[650px] mx-auto">
+        <div className="video-section  max-w-full h-[300px] sm:h-[500px] custom-md:h-[650px] mx-auto">
           <Image
             src={"/home/thumbnail.webp"}
             alt="video"

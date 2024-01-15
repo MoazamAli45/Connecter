@@ -1,7 +1,10 @@
 import Link from "next/link";
 import React from "react";
 
-export const Heading1 = ({ children, styles = "text-[45px] font-medium " }) => {
+export const Heading1 = ({
+  children,
+  styles = "custom-xl:text-[44.8px] font-medium text-[24px] custom-md:text-[37px]  text-center",
+}) => {
   return (
     <h1
       className={`  ${styles} text-gradient leading-[30px] sm:leading-[44px] `}
@@ -12,7 +15,7 @@ export const Heading1 = ({ children, styles = "text-[45px] font-medium " }) => {
 };
 export const Heading2 = ({
   children,
-  styles = "text-[20px] custom-md:text-[26px] font-medium text-center",
+  styles = "text-[20px] custom-md:text-[26px] custom-xl:text-[33.6px] font-medium text-center",
 }) => {
   return (
     <h2

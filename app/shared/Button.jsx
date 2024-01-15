@@ -1,9 +1,10 @@
 import Link from "next/link";
 
-export const PrimaryButton = ({ children, styles, onClick }) => {
+export const PrimaryButton = ({ children, styles, onClick, style }) => {
   return (
     <button
       onClick={onClick}
+      style={style}
       className="text-[17px] md:text-[20px] font-medium text-white-main px-[30px] py-[7px] rounded-full border-[1px] border-solid border-[#F2DE97] cursor-pointer"
     >
       {children}

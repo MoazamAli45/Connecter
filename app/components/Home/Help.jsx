@@ -34,7 +34,7 @@ const Help = () => {
         <div className="grid grid-cols-2 custom-md:grid-cols-4 gap-x-[15px] gap-y-[20px] mt-[40px]  custom-md:mt-[50px] ">
           {helpContent.map((item) => (
             <div key={item.id} className=" help-bg sm:min-h-[190px] gap-[15px]">
-              <div className="custom-md:w-[60px] custom-md:h-[60px] w-[40px] h-[40px] relative">
+              <div className="custom-xl:w-[62px] custom-xl:h-[62px] w-[45px] h-[45px] relative">
                 <Image
                   src={item.image}
                   alt={item.title}

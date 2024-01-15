@@ -10,7 +10,7 @@ const Hero = () => {
       <Wrapper styles="px-0 sm:px-8 custom-md:px-14 ">
         {/*   BG IMAGE  ===========> */}
 
-        <div className="hero-bg -z-0 w-[250px] h-[250px]  sm:w-[340px] sm:h-[340px] max-w-[400px]">
+        <div className="hero-bg -z-[10]  w-[200px] h-[200px]  sm:w-[340px] sm:h-[340px] custom-xl:w-[450px] custom-xl:h-[450px]  max-w-[400px]  -top-[60px] sm:-top-[100px]">
           <Image
             src={"/home/hero-bg.png"}
             alt="hero-bg"
@@ -21,14 +21,14 @@ const Hero = () => {
           />
         </div>
         <div className="flex flex-col justify-center items-center gap-8">
-          <Typography.H1 styles="text-[20px] custom-md:text-[37px] font-medium text-center">
+          <Typography.H1>
             Connecting you to financial tools that you control, anywhere, at
             anytime- it&rsquo;s never been easier.
           </Typography.H1>
           <div className=" flex flex-col gap-6 items-center">
             {" "}
             <PrimaryButton>Get Started</PrimaryButton>
-            <div className="custom-md:w-[600px]  custom-md:h-[500px] w-[250px] h-[200px]   sm:w-[400px] sm:h-[340px]  sm:max-w-[400px] custom-md:max-w-full relative">
+            <div className="custom-xl:w-[662px] custom-xl:h-[602px]  w-[323px] h-[330px]   sm:w-[550px] sm:h-[498px]  max-w-full relative">
               <Image
                 src={"/home/hero.png"}
                 alt="hero"
