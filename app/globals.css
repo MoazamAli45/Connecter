@@ -103,6 +103,13 @@ body {
   }
 }
 
+@media (max-width: 991px) {
+  .help-bg {
+    min-height: 130px;
+    padding: 20px 15px 0;
+  }
+}
+
 .video-section {
   position: relative;
 
@@ -125,7 +132,7 @@ body {
   color: #caab3e;
 }
 
-/*    IFRAME  */
+/*    IFRAME  STYLING */
 .iframe-model {
   position: absolute;
   display: block;
