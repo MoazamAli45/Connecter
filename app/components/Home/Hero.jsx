@@ -28,7 +28,7 @@ const Hero = () => {
           <div className=" flex flex-col gap-6 items-center">
             {" "}
             <PrimaryButton>Get Started</PrimaryButton>
-            <div className="custom-md:w-[530px]  custom-md:h-[450px] w-[250px] h-[200px]   sm:w-[400px] sm:h-[340px]  sm:max-w-[400px] custom-md:max-w-full relative">
+            <div className="custom-md:w-[600px]  custom-md:h-[500px] w-[250px] h-[200px]   sm:w-[400px] sm:h-[340px]  sm:max-w-[400px] custom-md:max-w-full relative">
               <Image
                 src={"/home/hero.png"}
                 alt="hero"

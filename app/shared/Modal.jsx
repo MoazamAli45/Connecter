@@ -4,7 +4,7 @@ const Modal = ({
   isOpen,
   setIsOpen,
   children,
-  styles = "w-[350px] max-w-[500px] sm:w-[650px] sm:max-w-[700px] custom-md:w-[1000px] md:max-w-[1000px] h-[400px] sm:h-[600px] custom-md:h-[85vh] mx-auto custom-md:mb-auto  ",
+  styles = "w-[350px] max-w-[500px] sm:w-[650px] sm:max-w-[700px] custom-md:w-[1000px] md:max-w-[1000px] h-[400px] sm:h-[600px] custom-md:h-[90vh] mx-auto custom-md:my-auto  ",
 }) => {
   const toggleModal = () => {
     setIsOpen(!isOpen);

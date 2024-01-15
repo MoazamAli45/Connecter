@@ -28,13 +28,13 @@ const helpContent = [
 
 const Help = () => {
   return (
-    <section className="my-[20px] mb-[40px]">
+    <section className="my-[40px] ">
       <Wrapper>
         <Typography.H2>HOW THE CONNECTER CAN HELP YOU</Typography.H2>
-        <div className="grid grid-cols-2 custom-md:grid-cols-4 gap-x-[15px] gap-y-[20px] mt-[40px] custom-md:mt-[20px]">
+        <div className="grid grid-cols-2 custom-md:grid-cols-4 gap-x-[15px] gap-y-[20px] mt-[40px]  custom-md:mt-[50px] ">
           {helpContent.map((item) => (
-            <div key={item.id} className=" help-bg sm:min-h-[190px]">
-              <div className="custom-md:w-[40px] custom-md:h-[40px] w-[30px] h-[30px] relative">
+            <div key={item.id} className=" help-bg sm:min-h-[190px] gap-[15px]">
+              <div className="custom-md:w-[60px] custom-md:h-[60px] w-[40px] h-[40px] relative">
                 <Image
                   src={item.image}
                   alt={item.title}
@@ -43,7 +43,7 @@ const Help = () => {
                   priority
                 />
               </div>
-              <Typography.PSmall styles="">{item.title}</Typography.PSmall>
+              <Typography.PSmall>{item.title}</Typography.PSmall>
             </div>
           ))}
         </div>
