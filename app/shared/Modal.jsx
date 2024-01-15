@@ -4,7 +4,7 @@ const Modal = ({
   isOpen,
   setIsOpen,
   children,
-  styles = "w-[350px] max-w-[500px] sm:w-[650px] sm:max-w-[700px] custom-md:w-[1000px] md:max-w-[1000px] h-[400px] sm:h-[600px] custom-md:h-[90vh] mx-auto custom-md:my-auto  ",
+  styles = "w-[350px] max-w-[500px] sm:w-[650px] sm:max-w-[700px] custom-md:w-full md:max-w-[900px] h-[400px] sm:h-[600px] custom-md:h-[90vh] mx-auto custom-md:my-auto  ",
 }) => {
   const toggleModal = () => {
     setIsOpen(!isOpen);
@@ -19,8 +19,10 @@ const Modal = ({
   useEffect(() => {
     if (isOpen) {
       document.body.classList.add("modal-active");
+      document.body.style.overflow = "hidden"; // Disable scrolling
     } else {
       document.body.classList.remove("modal-active");
+      document.body.style.overflow = "auto"; // Enable scrolling
     }
   }, [isOpen]);
 
@@ -29,7 +31,7 @@ const Modal = ({
       {isOpen && (
         <div className="modal fixed w-full h-full top-0 left-0 flex items-center justify-center z-10 ">
           <div
-            className="modal-overlay absolute w-full h-full bg-gray-900 opacity-70 border"
+            className="modal-overlay absolute w-full h-full bg-gray-900 opacity-50 border"
             onClick={handleOverlayClick}
           ></div>
 
@@ -41,7 +43,7 @@ const Modal = ({
                 onClick={() => setIsOpen(false)}
               />
             </div>
-            <div className="bg-[#000000] py-[10px] z-10">{children}</div>
+            <div className="bg-[#000000]  z-10">{children}</div>
           </div>
         </div>
       )}

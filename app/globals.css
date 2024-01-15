@@ -138,6 +138,8 @@ body {
   display: block;
   top: 0;
   left: 0;
+  /*  I want to be at center vertically */
+  /* transform: translate(0, 50%); */
   width: 100%;
 
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
