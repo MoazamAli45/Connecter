@@ -23,8 +23,8 @@ const Accessible = () => {
           <div className="flex flex-col gap-[30px] w-1/3 ">
             <div
               className={`accessible-bg  ${
-                pic === 1 ? "accessible-active mr-0" : ""
-              }   min-h-[220px] flex flex-col gap-[20px] p-[10px] mr-[30px]`}
+                pic === 1 ? "accessible-active mr-0" : "mr-[30px]"
+              }   min-h-[220px] flex flex-col gap-[20px] p-[10px] `}
               onClick={() => handlePic(1)}
             >
               <h4
@@ -46,8 +46,8 @@ const Accessible = () => {
             {/*   2nd  */}
             <div
               className={`accessible-bg  ${
-                pic === 2 ? "accessible-active mr-0" : ""
-              }   min-h-[220px] flex flex-col gap-[20px] p-[10px] mr-[30px]`}
+                pic === 2 ? "accessible-active mr-0" : "mr-[30px]"
+              }   min-h-[220px] flex flex-col gap-[20px] p-[10px] `}
               onClick={() => handlePic(2)}
             >
               <h4
@@ -57,7 +57,11 @@ const Accessible = () => {
               >
                 Mastering a World of Multiple Currencies: Transfer With Ease
               </h4>
-              <p className="text-[16px] leading-[24px] font-normal cursor-pointer">
+              <p
+                className={`text-[16px] leading-[24px] font-normal cursor-pointer  ${
+                  pic === 2 ? "w-[90%] mr-auto" : ""
+                }`}
+              >
                 Exchange back and forth between a variety of currencies
                 including BTC, ETH, EURO, and USD.
               </p>
@@ -65,8 +69,8 @@ const Accessible = () => {
             {/*  3rd  */}
             <div
               className={`accessible-bg  ${
-                pic === 3 ? "accessible-active mr-0" : ""
-              }   min-h-[220px] flex flex-col gap-[20px] p-[10px] mr-[30px]`}
+                pic === 3 ? "accessible-active mr-0" : "mr-[30px]"
+              }   min-h-[220px] flex flex-col gap-[20px] p-[10px] `}
               onClick={() => handlePic(3)}
             >
               <h4
@@ -76,7 +80,11 @@ const Accessible = () => {
               >
                 Paper Trail Freedom: Effortless Cash Withdrawals
               </h4>
-              <p className="text-[16px] leading-[24px] font-normal cursor-pointer">
+              <p
+                className={`text-[16px] leading-[24px] font-normal cursor-pointer  ${
+                  pic === 3 ? "w-[90%] mr-auto" : ""
+                }`}
+              >
                 Withdraw cash through BTC ATMs and more options coming soon.
               </p>
             </div>
@@ -95,8 +103,10 @@ const Accessible = () => {
           <div className="flex flex-col gap-[30px] w-1/3">
             <div
               className={`accessible-bg  ${
-                pic === 4 ? "accessible-active-right ml-0 px-[30px]" : ""
-              }   min-h-[220px] flex flex-col gap-[20px] p-[10px] ml-[30px]`}
+                pic === 4
+                  ? "accessible-active-right ml-0 px-[30px]"
+                  : "ml-[30px]"
+              }   min-h-[220px] flex flex-col gap-[20px] p-[10px]`}
               onClick={() => handlePic(4)}
             >
               <h4
@@ -113,8 +123,10 @@ const Accessible = () => {
             {/*   5th  */}
             <div
               className={`accessible-bg  ${
-                pic === 5 ? "accessible-active-right ml-0 px-[30px]" : ""
-              }   min-h-[220px] flex flex-col gap-[20px] p-[10px] ml-[30px]`}
+                pic === 5
+                  ? "accessible-active-right ml-0 px-[30px]"
+                  : "ml-[30px]"
+              }   min-h-[220px] flex flex-col gap-[20px] p-[10px] `}
               onClick={() => handlePic(5)}
             >
               <h4
@@ -136,8 +148,8 @@ const Accessible = () => {
             {/*  6th  */}
             <div
               className={`accessible-bg  ${
-                pic === 6 ? "accessible-active-right ml-0 " : ""
-              }   min-h-[220px] flex flex-col gap-[20px] p-[10px] ml-[30px]`}
+                pic === 6 ? "accessible-active-right ml-0 " : "ml-[30px]"
+              }   min-h-[220px] flex flex-col gap-[20px] p-[10px] `}
               onClick={() => handlePic(6)}
             >
               <h4
