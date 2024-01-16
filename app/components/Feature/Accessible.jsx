@@ -18,7 +18,7 @@ const Accessible = () => {
           YOUR MONEY.
           <br /> ANYWHERE &ndash; AS ACCESSIBLE AS THE INTERNET
         </h1>
-        <div className="hidden custom-md:flex    custom-md:mt-[60px] custom-md:mb-[30px] ">
+        <div className="hidden lg:flex    custom-md:mt-[60px] custom-md:mb-[30px] ">
           {/*  LEFT SIDE */}
           <div className="flex flex-col gap-[30px] w-1/3 ">
             <div
@@ -36,7 +36,7 @@ const Accessible = () => {
               </h4>
               <p
                 className={`text-[16px] leading-[24px] font-normal cursor-pointer  ${
-                  pic === 1 ? "w-[90%] mr-auto" : ""
+                  pic === 1 ? "w-[75%] lg:w-[90%] mr-auto" : ""
                 }`}
               >
                 Transfer funds using the stable currency of your preference and
@@ -59,7 +59,7 @@ const Accessible = () => {
               </h4>
               <p
                 className={`text-[16px] leading-[24px] font-normal cursor-pointer  ${
-                  pic === 2 ? "w-[90%] mr-auto" : ""
+                  pic === 2 ? "w-[75%] lg:w-[90%] mr-auto" : ""
                 }`}
               >
                 Exchange back and forth between a variety of currencies
@@ -82,7 +82,7 @@ const Accessible = () => {
               </h4>
               <p
                 className={`text-[16px] leading-[24px] font-normal cursor-pointer  ${
-                  pic === 3 ? "w-[90%] mr-auto" : ""
+                  pic === 3 ? "w-[75%] lg:w-[90%] mr-auto" : ""
                 }`}
               >
                 Withdraw cash through BTC ATMs and more options coming soon.
@@ -90,7 +90,7 @@ const Accessible = () => {
             </div>
           </div>
           {/*  MIDDLE */}
-          <div className="w-1/3 relative custom-md:w-[500px]  custom-md:max-w-[600px] custom-xl:max-w-[500px] h-[970px]">
+          <div className="w-1/3 relative custom-md:w-[500px]  custom-md:max-w-[600px] custom-xl:max-w-[500px] h-[1090px] lg:h-[970px]">
             <Image
               src={`/feature/mob-${pic}.png`}
               alt="Mobile Image"
