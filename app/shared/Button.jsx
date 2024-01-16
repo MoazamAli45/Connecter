@@ -22,3 +22,15 @@ export const SecondaryButton = ({ children, styles, href = "" }) => {
     </Link>
   );
 };
+
+export const SubscribeButton = ({ children, styles, style, onClick }) => {
+  return (
+    <button
+      className={`subscribe-btn ${styles}`}
+      onClick={onClick}
+      style={style}
+    >
+      {children}
+    </button>
+  );
+};

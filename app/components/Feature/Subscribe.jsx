@@ -1,3 +1,5 @@
+import { SubscribeButton } from "@/app/shared/Button";
+import { EmailInput, TextInput } from "@/app/shared/Input";
 import Wrapper from "@/app/shared/Wrapper";
 import Mail from "@/app/shared/svg/Mail";
 import Link from "next/link";
@@ -41,29 +43,14 @@ const Subscribe = () => {
               {/*   FORM  */}
               <div className="flex flex-col custom-md:mt-[10px]">
                 <div className="flex flex-col   sm:flex-row gap-[20px] custom-md:gap-[30px] lg:pr-[20px]">
-                  <input
-                    type="text"
-                    placeholder="Enter Your First Name"
-                    className="subscribe-input-text sm:w-1/2"
-                  />
-                  <input
-                    type="text"
-                    placeholder="Enter Your Last Name"
-                    className="subscribe-input-text sm:w-1/2"
-                  />
+                  <TextInput placeholder={"Enter Your First Name"} />
+                  <TextInput placeholder={"Enter Your Last Name"} />
                 </div>
                 {/*   DOWN INPUT  */}
                 <div className="flex flex-col sm:flex-row gap-[20px] custom-md:gap-[30px] my-[20px] items-center">
-                  <div className="relative w-full sm:w-3/5">
-                    <input
-                      className="subscribe-input-email w-full " // Adjust padding to make room for the icon
-                      type="email"
-                      placeholder="Enter Your Email"
-                    />
-                    <Mail className="absolute left-[12px] top-1/2 transform -translate-y-1/2  text-gray-400" />
-                  </div>
+                  <EmailInput placeholder={"Enter Your Email"} />
                   <div className="w-full sm:w-1/3">
-                    <button className="subscribe-btn">Subscribe</button>
+                    <SubscribeButton> Subscribe</SubscribeButton>
                   </div>
                 </div>
               </div>

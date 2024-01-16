@@ -43,12 +43,12 @@ const Footer = () => {
           <div>
             <ul className="flex gap-[20px]">
               <li>
-                <Link href="">
+                <Link href="https://www.youtube.com/@theconnecterofficial">
                   <Image src="/yt.png" alt="yt" width={22} height={20} />
                 </Link>
               </li>
               <li>
-                <Link href="">
+                <Link href="https://medium.com/@theconnecterofficial/">
                   <Image
                     src={"/medium.svg"}
                     alt="medium"
@@ -58,7 +58,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="">
+                <Link href="https://www.linkedin.com/company/theconnecter/">
                   <Image
                     src={"/linkedin.svg"}
                     alt="linkedin"
@@ -68,7 +68,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="">
+                <Link href="https://www.facebook.com/theconnecterofficial">
                   <Image
                     src={"/fb.svg"}
                     alt="facebook"
@@ -78,7 +78,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="">
+                <Link href="https://www.instagram.com/theconnecterofficial/">
                   <Image
                     src={"/instagram.svg"}
                     alt="instagram"
@@ -88,7 +88,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="">
+                <Link href="https://twitter.com/ConnecterDeFi">
                   <Image src={"/x.svg"} alt="x" width={22} height={20} />
                 </Link>
               </li>

@@ -3,9 +3,11 @@ import Image from "next/image";
 import React, { useRef } from "react";
 import Typography from "../shared/Typography";
 import { PrimaryButton } from "../shared/Button";
+import { useRouter } from "next/navigation";
 
 const Navbar = () => {
   const toggleRef = useRef();
+  const router = useRouter();
 
   //     FOR NAVLIST REF
   const navRef = useRef();
@@ -49,10 +51,16 @@ const Navbar = () => {
                 </Typography.NavLink>
               </li>
               <li>
-                <Typography.NavLink href="/">Zero Fees Week</Typography.NavLink>
+                <Typography.NavLink href="/subscribe">
+                  Zero Fees Week
+                </Typography.NavLink>
               </li>
             </ul>
-            <PrimaryButton>Get Started</PrimaryButton>
+            <PrimaryButton
+              onClick={() => router.push("/subscribe", { scroll: false })}
+            >
+              Get Started
+            </PrimaryButton>
             {/*   HUMBERGER */}
             <div
               className="hamburger custom-md:hidden"
@@ -76,7 +84,9 @@ const Navbar = () => {
       >
         <Typography.NavLink href={"/"}>Home</Typography.NavLink>
         <Typography.NavLink href={"/feature"}>Feature V1</Typography.NavLink>
-        <Typography.NavLink href={"/"}>Zero Fees Week</Typography.NavLink>
+        <Typography.NavLink href={"/subscribe"}>
+          Zero Fees Week
+        </Typography.NavLink>
       </nav>
     </>
   );

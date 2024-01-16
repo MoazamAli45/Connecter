@@ -1,10 +1,13 @@
+"use client";
 import { PrimaryButton } from "@/app/shared/Button";
 import Typography from "@/app/shared/Typography";
 import Wrapper from "@/app/shared/Wrapper";
 import Image from "next/image";
 import React from "react";
+import { useRouter } from "next/navigation";
 
 const Hero = () => {
+  const router = useRouter();
   return (
     <section className="mt-[30px] custom-md:mt-[60px] mb-[40px] relative">
       <Wrapper styles="px-0 sm:px-8 custom-md:px-14 ">
@@ -27,7 +30,11 @@ const Hero = () => {
           </Typography.H1>
           <div className=" flex flex-col gap-6 items-center">
             {" "}
-            <PrimaryButton>Get Started</PrimaryButton>
+            <PrimaryButton
+              onClick={() => router.push("/subscribe", { scroll: false })}
+            >
+              Get Started
+            </PrimaryButton>
             <div className="custom-xl:w-[662px] custom-xl:h-[602px]  w-[323px] h-[330px]   sm:w-[550px] sm:h-[498px]  max-w-full relative">
               <Image
                 src={"/home/hero.png"}
