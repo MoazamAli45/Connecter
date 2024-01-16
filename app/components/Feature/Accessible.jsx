@@ -27,10 +27,18 @@ const Accessible = () => {
               }   min-h-[220px] flex flex-col gap-[20px] p-[10px] mr-[30px]`}
               onClick={() => handlePic(1)}
             >
-              <h4 className="text-[20px] leading-[30px] text-white font-medium cursor-pointer">
+              <h4
+                className={`text-[20px] leading-[30px] font-medium cursor-pointer ${
+                  pic === 1 ? "text-[#caab3e]" : "text-white"
+                }`}
+              >
                 Send and Receive in Resilient and Stable Currencies
               </h4>
-              <p className="text-[16px] leading-[24px] font-normal cursor-pointer">
+              <p
+                className={`text-[16px] leading-[24px] font-normal cursor-pointer  ${
+                  pic === 1 ? "w-[90%] mr-auto" : ""
+                }`}
+              >
                 Transfer funds using the stable currency of your preference and
                 convert it to your local currency whenever needed.
               </p>
@@ -42,7 +50,11 @@ const Accessible = () => {
               }   min-h-[220px] flex flex-col gap-[20px] p-[10px] mr-[30px]`}
               onClick={() => handlePic(2)}
             >
-              <h4 className="text-[20px] leading-[30px] text-white font-medium cursor-pointer">
+              <h4
+                className={`text-[20px] leading-[30px] font-medium cursor-pointer ${
+                  pic === 2 ? "text-[#caab3e]" : "text-white"
+                }`}
+              >
                 Mastering a World of Multiple Currencies: Transfer With Ease
               </h4>
               <p className="text-[16px] leading-[24px] font-normal cursor-pointer">
@@ -57,7 +69,11 @@ const Accessible = () => {
               }   min-h-[220px] flex flex-col gap-[20px] p-[10px] mr-[30px]`}
               onClick={() => handlePic(3)}
             >
-              <h4 className="text-[20px] leading-[30px] text-white font-medium cursor-pointer">
+              <h4
+                className={`text-[20px] leading-[30px] font-medium cursor-pointer ${
+                  pic === 3 ? "text-[#caab3e]" : "text-white"
+                }`}
+              >
                 Paper Trail Freedom: Effortless Cash Withdrawals
               </h4>
               <p className="text-[16px] leading-[24px] font-normal cursor-pointer">
@@ -79,11 +95,15 @@ const Accessible = () => {
           <div className="flex flex-col gap-[30px] w-1/3">
             <div
               className={`accessible-bg  ${
-                pic === 4 ? "accessible-active-right ml-0" : ""
+                pic === 4 ? "accessible-active-right ml-0 px-[30px]" : ""
               }   min-h-[220px] flex flex-col gap-[20px] p-[10px] ml-[30px]`}
               onClick={() => handlePic(4)}
             >
-              <h4 className="text-[20px] leading-[30px] text-white font-medium cursor-pointer">
+              <h4
+                className={`text-[20px] leading-[30px] font-medium cursor-pointer ${
+                  pic === 4 ? "text-[#caab3e]" : "text-white"
+                }`}
+              >
                 Retail Ready: Seamless In-Store Payments
               </h4>
               <p className="text-[16px] leading-[24px] font-normal cursor-pointer">
@@ -93,14 +113,22 @@ const Accessible = () => {
             {/*   5th  */}
             <div
               className={`accessible-bg  ${
-                pic === 5 ? "accessible-active-right ml-0" : ""
+                pic === 5 ? "accessible-active-right ml-0 px-[30px]" : ""
               }   min-h-[220px] flex flex-col gap-[20px] p-[10px] ml-[30px]`}
               onClick={() => handlePic(5)}
             >
-              <h4 className="text-[20px] leading-[30px] text-white font-medium cursor-pointer">
+              <h4
+                className={`text-[20px] leading-[30px] font-medium cursor-pointer ${
+                  pic === 5 ? "text-[#caab3e]" : "text-white"
+                }`}
+              >
                 Easy Transfer To and From Your Bank Account
               </h4>
-              <p className="text-[16px] leading-[24px] font-normal cursor-pointer">
+              <p
+                className={`text-[16px] leading-[24px] font-normal cursor-pointer  ${
+                  pic === 5 ? "w-[90%] mr-auto" : ""
+                }`}
+              >
                 Initiate quick withdrawals and deposits from your bank account,
                 ensuring fast and secure transactions.
               </p>
@@ -108,14 +136,22 @@ const Accessible = () => {
             {/*  6th  */}
             <div
               className={`accessible-bg  ${
-                pic === 6 ? "accessible-active-right ml-0" : ""
+                pic === 6 ? "accessible-active-right ml-0 " : ""
               }   min-h-[220px] flex flex-col gap-[20px] p-[10px] ml-[30px]`}
               onClick={() => handlePic(6)}
             >
-              <h4 className="text-[20px] leading-[30px] text-white font-medium cursor-pointer">
+              <h4
+                className={`text-[20px] leading-[30px] font-medium cursor-pointer ${
+                  pic === 6 ? "text-[#caab3e]" : "text-white"
+                }`}
+              >
                 An Account That&lsquo;s Truly Yours
               </h4>
-              <p className="text-[16px] leading-[24px] font-normal cursor-pointer">
+              <p
+                className={`text-[16px] leading-[24px] font-normal cursor-pointer  ${
+                  pic === 6 ? "w-[90%] mr-auto" : ""
+                }`}
+              >
                 Always have access to your funds. The Connecter offers direct
                 peer-to-peer transactions, cutting out the middleman. Funds are
                 always under the control of the sender or recipient.
