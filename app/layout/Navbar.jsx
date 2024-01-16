@@ -44,7 +44,9 @@ const Navbar = () => {
                 <Typography.NavLink href={"/"}>Home</Typography.NavLink>
               </li>
               <li>
-                <Typography.NavLink href="/">Feature V1</Typography.NavLink>
+                <Typography.NavLink href="/feature">
+                  Feature V1
+                </Typography.NavLink>
               </li>
               <li>
                 <Typography.NavLink href="/">Zero Fees Week</Typography.NavLink>
@@ -73,7 +75,7 @@ const Navbar = () => {
         ref={navRef}
       >
         <Typography.NavLink href={"/"}>Home</Typography.NavLink>
-        <Typography.NavLink href={"/"}>Feature V1</Typography.NavLink>
+        <Typography.NavLink href={"/feature"}>Feature V1</Typography.NavLink>
         <Typography.NavLink href={"/"}>Zero Fees Week</Typography.NavLink>
       </nav>
     </>
