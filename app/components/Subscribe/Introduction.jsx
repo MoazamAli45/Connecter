@@ -48,7 +48,7 @@ const Introduction = () => {
             {/*   DOWN INPUT  */}
             <div className="flex flex-col sm:flex-row gap-[20px] custom-md:gap-[30px] my-[20px] ">
               <EmailInput placeholder={"Enter Your Email"} />
-              <div className="w-full sm:w-1/3">
+              <div className="w-full sm:w-1/3 text-center sm:text-start">
                 <SubscribeButton> Subscribe</SubscribeButton>
               </div>
             </div>

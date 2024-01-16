@@ -3,6 +3,52 @@ import Image from "next/image";
 import React from "react";
 import { useState } from "react";
 
+const subscribeData = [
+  {
+    id: 1,
+    title: "Send and Receive in Resilient and Stable Currencies",
+    content:
+      "Transfer funds using the stable currency of your preference and convert it to your local currency whenever needed.",
+    image: "/feature/mob-1.png",
+  },
+  {
+    id: 2,
+    title: "Mastering a World of Multiple Currencies: Transfer With Ease",
+    content:
+      "Exchange back and forth between a variety of currencies including BTC, ETH, EURO, and USD",
+    image: "/feature/mob-2.png",
+  },
+  {
+    id: 3,
+    title: "Paper Trail Freedom: Effortless Cash Withdrawals",
+    content: "Withdraw cash through BTC ATMs and more options coming soon.",
+
+    image: "/feature/mob-3.png",
+  },
+  {
+    id: 4,
+    title: "Retail Ready: Seamless In-Store Payments",
+    content: "Retail Ready: Seamless In-Store Payments",
+
+    image: "/feature/mob-4.png",
+  },
+  {
+    id: 5,
+    title: "Easy Transfer To and From Your Bank Account",
+    content:
+      "Initiate quick withdrawals and deposits from your bank account, ensuring fast and secure transactions.",
+    image: "/feature/mob-5.png",
+  },
+  {
+    id: 6,
+    title: "An Account That’s Truly Yours",
+    content:
+      "Always have access to your funds. The Connecter offers direct peer-to-peer transactions, cutting out the middleman. Funds are always under the control of the sender or recipient.",
+
+    image: "/feature/mob-6.png",
+  },
+];
+
 const Accessible = () => {
   const [pic, setPic] = useState(1);
 
@@ -11,13 +57,14 @@ const Accessible = () => {
   };
 
   return (
-    <section className="my-[40px] overflow-x-hidden">
+    <section className="my-[20px] custom-md:my-[40px] overflow-x-hidden">
       <div className="w-full max-w-[1400px] mx-auto px-8">
         {/*  HEADING */}
         <h1 className="text-[30px] font-bold text-center text-white leading-[36px] ">
           YOUR MONEY.
           <br /> ANYWHERE &ndash; AS ACCESSIBLE AS THE INTERNET
         </h1>
+        {/*   FOR LARGE SCREEN */}
         <div className="hidden lg:flex    custom-md:mt-[60px] custom-md:mb-[30px] ">
           {/*  LEFT SIDE */}
           <div className="flex flex-col gap-[30px] w-1/3 ">
@@ -170,6 +217,31 @@ const Accessible = () => {
               </p>
             </div>
           </div>
+        </div>
+        {/*  FOR SMALL SCREEN */}
+        <div className="flex lg:hidden flex-col my-[30px] gap-[30px]">
+          {subscribeData.map((item) => (
+            <div
+              className="flex flex-col gap-[15px] items-center justify-center "
+              key={item.id}
+            >
+              <h2 className="text-[35px] text-center leading-[42px] font-medium cursor-pointer text-white">
+                {item.title}
+              </h2>
+              <p className="text-[16px] text-center leading-[24px] font-normal cursor-pointer text-white">
+                {item.content}
+              </p>
+              <div className="relative w-[70%] h-[350px] sm:h-[600px] md:h-[900px] custom-md:h-[1030px]">
+                <Image
+                  src={item.image}
+                  alt="mobile"
+                  priority
+                  fill
+                  className="w-full h-full"
+                />
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>
