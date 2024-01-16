@@ -251,4 +251,22 @@ body {
   border-radius: 22px;
   border: 1px solid #292929;
   margin-top: 50px;
+  cursor: pointer;
+}
+
+.accessible-active {
+  border: 1px solid;
+  border-right: none;
+  border-color: #caab3e;
+  border-radius: 10px 0px 0px 10px;
+  width: 452px;
+}
+
+.accessible-active-right {
+  border: 1px solid;
+  border-left: none;
+  border-color: #caab3e;
+  border-radius: 0px 10px 10px 0px;
+  width: 120%;
+  /* margin-inline: auto; */
 }
