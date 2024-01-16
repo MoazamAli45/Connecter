@@ -50,7 +50,7 @@ const features = [
 
 export const Features = () => {
   return (
-    <section className="my-[50px]">
+    <section className="my-[30px] sm:my-[50px]">
       <Wrapper>
         <div className="grid grid-cols-1 custom-md:grid-cols-2 xl:grid-cols-3 gap-[20px]">
           {features.map((item) => (

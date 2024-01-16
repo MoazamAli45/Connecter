@@ -1,14 +1,15 @@
 import Wrapper from "@/app/shared/Wrapper";
+import Mail from "@/app/shared/svg/Mail";
 import Link from "next/link";
 import React from "react";
 
 const Subscribe = () => {
   return (
-    <section className="my-[50px]">
+    <section className="my-[40px]  custom-md:mt-[50px] custom-md:mb-[70px]">
       <Wrapper>
-        <div className="subscribe-container flex flex-col custom-md:flex-row gap-[20px]">
+        <div className="subscribe-container flex flex-col custom-md:flex-row gap-[10px] sm:gap-[30px] items-center">
           {/*  LEFT SIDE */}
-          <div className="custom-md:w-2/5 subscribe-bg h-[400px]">
+          <div className="w-full custom-md:w-2/5 subscribe-bg h-[300px] sm:h-[400px]">
             <div className=" flex justify-start items-end h-[93%] pl-[20px]">
               <Link
                 href={
@@ -21,8 +22,8 @@ const Subscribe = () => {
           </div>
           {/*  RIGHT SIDE */}
           <div className="custom-md:w-3/5">
-            <div className="flex flex-col gap-[30px] py-[40px] ">
-              <h2 className="text-[20px] text-white font-bold leading-[25.2px]">
+            <div className="flex flex-col gap-[30px] py-[10px] custom-md:py-[40px] ">
+              <h2 className="text-[20px] text-white font-bold leading-[25.2px] custom-md:pt-[10px]">
                 SUBSCRIBE TODAY &hyphen; STEP INTO THE FUTURE OF FINANCE
                 <br />
                 <br />
@@ -39,20 +40,32 @@ const Subscribe = () => {
               </p>
               {/*   FORM  */}
               <div className="flex flex-col custom-md:mt-[10px]">
-                <div className="flex gap-[30px]">
+                <div className="flex flex-col   sm:flex-row gap-[20px] custom-md:gap-[30px] lg:pr-[20px]">
                   <input
                     type="text"
                     placeholder="Enter Your First Name"
-                    className="subscribe-input-text"
+                    className="subscribe-input-text sm:w-1/2"
                   />
                   <input
                     type="text"
                     placeholder="Enter Your Last Name"
-                    className="subscribe-input-text"
+                    className="subscribe-input-text sm:w-1/2"
                   />
                 </div>
                 {/*   DOWN INPUT  */}
-                <div className="flex gap-[30px]"></div>
+                <div className="flex flex-col sm:flex-row gap-[20px] custom-md:gap-[30px] my-[20px] items-center">
+                  <div className="relative w-full sm:w-3/5">
+                    <input
+                      className="subscribe-input-email w-full " // Adjust padding to make room for the icon
+                      type="email"
+                      placeholder="Enter Your Email"
+                    />
+                    <Mail className="absolute left-[12px] top-1/2 transform -translate-y-1/2  text-gray-400" />
+                  </div>
+                  <div className="w-full sm:w-1/3">
+                    <button className="subscribe-btn">Subscribe</button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
