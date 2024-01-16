@@ -137,7 +137,7 @@ const Accessible = () => {
             </div>
           </div>
           {/*  MIDDLE */}
-          <div className="w-1/3 relative custom-md:w-[500px]  custom-md:max-w-[600px] custom-xl:max-w-[500px] h-[1090px] lg:h-[970px]">
+          <div className="w-1/3 relative  lg:w-[400px] lg:max-w-[500px]  custom-xl:max-w-[500px] h-[1090px] lg:h-[970px]">
             <Image
               src={`/feature/mob-${pic}.png`}
               alt="Mobile Image"

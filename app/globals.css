@@ -152,6 +152,7 @@ body {
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
+
   height: 80vh;
   width: 100%;
 }
@@ -225,6 +226,9 @@ body {
   padding: 15px 20px;
   color: white;
 }
+.subscribe-input-text:focus {
+  outline: none;
+}
 
 .subscribe-input-email {
   border-radius: 24.856px;
@@ -232,6 +236,9 @@ body {
   background: rgba(0, 0, 0, 0.2);
   padding: 15px 20px 15px 55px;
   color: white;
+}
+.subscribe-input-email:focus {
+  outline: none;
 }
 
 .subscribe-btn {
