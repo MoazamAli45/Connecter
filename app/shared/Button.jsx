@@ -29,6 +29,7 @@ export const SubscribeButton = ({ children, styles, style, onClick }) => {
       className={`subscribe-btn ${styles}`}
       onClick={onClick}
       style={style}
+      type="submit"
     >
       {children}
     </button>

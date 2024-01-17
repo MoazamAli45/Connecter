@@ -1,5 +1,7 @@
 import { SubscribeButton } from "@/app/shared/Button";
 import { EmailInput, TextInput } from "@/app/shared/Input";
+import NewsLetterForm from "@/app/shared/NewsLetterForm";
+import NewsletterSubscribe from "@/app/shared/NewsLetterSubscribe";
 import Wrapper from "@/app/shared/Wrapper";
 import Mail from "@/app/shared/svg/Mail";
 import Link from "next/link";
@@ -41,19 +43,13 @@ const Subscribe = () => {
                 V1.
               </p>
               {/*   FORM  */}
-              <div className="flex flex-col custom-md:mt-[10px] ">
-                <div className="flex flex-col   sm:flex-row gap-[20px] custom-md:gap-[30px] lg:pr-[20px]">
-                  <TextInput placeholder={"Enter Your First Name"} />
-                  <TextInput placeholder={"Enter Your Last Name"} />
-                </div>
-                {/*   DOWN INPUT  */}
-                <div className="flex flex-col sm:flex-row gap-[20px] custom-md:gap-[30px] my-[20px] items-center">
-                  <EmailInput placeholder={"Enter Your Email"} />
-                  <div className="w-full sm:w-1/3 text-center sm:text-start">
-                    <SubscribeButton> Subscribe</SubscribeButton>
-                  </div>
-                </div>
-              </div>
+
+              {/*    TODO MAIL CHIMP SUBSCRIBE */}
+              {/* <NewsletterSubscribe
+                styles={"flex flex-col custom-md:mt-[10px]"}
+              /> */}
+
+              <NewsLetterForm styles={"flex flex-col custom-md:mt-[10px]"} />
             </div>
           </div>
         </div>

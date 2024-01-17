@@ -1,5 +1,5 @@
-import { SubscribeButton } from "@/app/shared/Button";
-import { EmailInput, TextInput } from "@/app/shared/Input";
+import NewsLetterForm from "@/app/shared/NewsLetterForm";
+import NewsletterSubscribe from "@/app/shared/NewsLetterSubscribe";
 import Wrapper from "@/app/shared/Wrapper";
 import Image from "next/image";
 import React from "react";
@@ -40,19 +40,17 @@ const Introduction = () => {
             </p>
           </div>
           {/*  BOTTOM  */}
-          <div className="flex flex-col custom-md:w-[90%] mx-auto  mb-[20px] w-full">
-            <div className="flex flex-col   sm:flex-row gap-[20px] custom-md:gap-[30px] lg:pr-[20px] ">
-              <TextInput placeholder={"Enter Your First Name"} />
-              <TextInput placeholder={"Enter Your Last Name"} />
-            </div>
-            {/*   DOWN INPUT  */}
-            <div className="flex flex-col sm:flex-row gap-[20px] custom-md:gap-[30px] my-[20px] ">
-              <EmailInput placeholder={"Enter Your Email"} />
-              <div className="w-full sm:w-1/3 text-center sm:text-start">
-                <SubscribeButton> Subscribe</SubscribeButton>
-              </div>
-            </div>
-          </div>
+          {/*   TODO MAILCHIMP  */}
+          {/* <NewsletterSubscribe
+            styles={
+              "flex flex-col custom-md:w-[90%]  mx-auto  mb-[20px] w-full"
+            }
+          /> */}
+          <NewsLetterForm
+            styles={
+              "flex flex-col custom-md:w-[90%]  mx-auto  mb-[20px] w-full"
+            }
+          />
         </div>
       </Wrapper>
     </section>
