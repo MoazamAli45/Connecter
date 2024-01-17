@@ -279,10 +279,8 @@ body {
 }
 
 /*   TIMELINE */
-.cirle-number {
-  height: 65px;
-  width: 65px;
-  font-size: 22.4px;
+
+.circle-number {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -290,4 +288,15 @@ body {
   border-radius: 50%;
   border: 1px solid #1c1c1c;
   background: #070707;
+}
+
+.timeline-heading {
+  background: linear-gradient(126deg, #f2de97 -21.41%, #cbb876 96.21%);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }

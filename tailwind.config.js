@@ -18,6 +18,7 @@ module.exports = {
       },
       screens: {
         "custom-md": "900px",
+        "custom-lg": "1200px",
         "custom-xl": "1399px",
       },
     },

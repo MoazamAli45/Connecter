@@ -7,10 +7,8 @@ const Roadmap = () => {
   return (
     <section className="custom-md:mt-[80px] custom-md:mb-[40px] my-[40px]">
       <Wrapper>
-        <div>
-          <Typography.H2>RADMAP</Typography.H2>
-          <Timeline />
-        </div>
+        <Typography.H2>ROADMAP</Typography.H2>
+        <Timeline />
       </Wrapper>
     </section>
   );
