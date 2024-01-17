@@ -11,7 +11,7 @@ const Timeline = () => {
             The origin
           </div>
           {/* <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) --> */}
-          <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-[92%]  before:mt-[6px] before:mb-0  before:px-px before:bg-[#1c1c1c] sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-[12px] after:h-[12px]  after:border-[1px] after:box-content after:border-[#1c1c1c] after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
+          <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-[92%]  before:mt-[6px] before:mb-0  before:px-[.5px] before:bg-[#1c1c1c] sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-[12px] after:h-[12px]  after:border-[1px] after:box-content after:border-[#1c1c1c] after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
             <div className="text-xl font-bold text-slate-900">
               Acme was founded in Milan, Italy
             </div>
