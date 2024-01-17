@@ -22,7 +22,7 @@ const Payment = () => {
               className="w-full h-full"
             />
           </div>
-          <SecondaryButton>Get Started</SecondaryButton>
+          <SecondaryButton href="/subscribe">Get Started</SecondaryButton>
         </div>
       </Wrapper>
     </section>
