@@ -3,7 +3,7 @@ import React from "react";
 const Timeline = () => {
   return (
     <>
-      <div className="hidden overflow-x-hidden custom-md:block  w-full mt-[40px]  min-h-[88vh]   custom-lg:mt-[20px] overflow-x-hidden">
+      <div className="hidden  custom-md:block  w-full mt-[40px]  min-h-[88vh]   custom-lg:mt-[20px] overflow-x-hidden">
         {/* <!-- Vertical Timeline #1 --> */}
 
         <div className="relative pl-8  py-6 group ">
@@ -166,7 +166,7 @@ const Timeline = () => {
               </span>
             </div>
             <h5 className="text-[#7A7A7A] text-[13px] custom-xl:text-[14px] leading-[15.6px] font-medium pt-[10px]">
-              •The Connecter App MVP
+              • The Connecter App MVP
             </h5>
           </div>
         </div>
@@ -212,7 +212,7 @@ const Timeline = () => {
               </span>
             </div>
             <h5 className="text-[#7A7A7A] text-[13px] custom-xl:text-[14px] leading-[15.6px] font-medium pt-[10px]">
-              •The Connecter Ecosystem Growth
+              • The Connecter Ecosystem Growth
             </h5>
           </div>
         </div>
