@@ -277,3 +277,17 @@ body {
   width: 120%;
   /* margin-inline: auto; */
 }
+
+/*   TIMELINE */
+.cirle-number {
+  height: 65px;
+  width: 65px;
+  font-size: 22.4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #1c1c1c;
+  background: #070707;
+}

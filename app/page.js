@@ -4,6 +4,7 @@ import Help from "./components/Home/Help";
 import Payment from "./components/Home/Payment";
 import Video from "./components/Home/Video";
 import Testimonial from "./components/Home/Testimonial";
+import Roadmap from "./components/Home/Roadmap";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Payment />
       <Video />
       <Testimonial />
+      <Roadmap />
     </main>
   );
 }
