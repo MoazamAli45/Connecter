@@ -3,7 +3,7 @@ import React from "react";
 const Timeline = () => {
   return (
     <>
-      <div className="hidden custom-md:block  w-full mt-[40px]  min-h-[80vh] custom-lg:min-h-[82vh]  custom-lg:mt-[20px] overflow-x-hidden">
+      <div className="hidden overflow-x-hidden custom-md:block  w-full mt-[40px]  min-h-[88vh]   custom-lg:mt-[20px] overflow-x-hidden">
         {/* <!-- Vertical Timeline #1 --> */}
 
         <div className="relative pl-8  py-6 group ">
@@ -122,7 +122,7 @@ const Timeline = () => {
       </div>
 
       {/*   FOR MOBILE AND TAB SCREEN  ================>*/}
-      <div className="block custom-md:hidden  w-full my-[10px]  ml-[20px] sm:ml-0">
+      <div className="block custom-md:hidden  w-full my-[10px]  ">
         {/* <!-- Vertical Timeline #1 --> */}
         {/*  PHASE 1 */}
         <div className="relative pl-8  py-6 group ">
