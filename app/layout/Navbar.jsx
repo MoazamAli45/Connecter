@@ -28,6 +28,7 @@ const Navbar = () => {
                   alt="logo-mobile"
                   fill
                   priority
+                  sizes="100%"
                   className="max-w-full max-h-full"
                 />
               </div>
@@ -37,6 +38,7 @@ const Navbar = () => {
                   alt="logo-text"
                   priority
                   fill
+                  sizes="100%"
                   className="w-full h-full "
                 />
               </div>

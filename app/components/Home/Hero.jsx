@@ -18,7 +18,7 @@ const Hero = () => {
             src={"/home/hero-bg.png"}
             alt="hero-bg"
             fill
-            sizes=""
+            sizes="100%"
             priority
             className="w-full h-full"
           />
@@ -40,7 +40,7 @@ const Hero = () => {
                 src={"/home/hero.png"}
                 alt="hero"
                 fill
-                sizes=""
+                sizes="100%"
                 priority
                 className="w-full h-full"
               />

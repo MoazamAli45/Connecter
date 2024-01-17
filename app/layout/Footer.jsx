@@ -18,6 +18,7 @@ const Footer = () => {
                 alt="logo-Footer"
                 className="max-w-full max-h-full"
                 fill
+                sizes="100%"
                 priority
               />
             </Link>
