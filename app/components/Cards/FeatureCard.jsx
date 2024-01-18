@@ -11,6 +11,7 @@ const FeatureCard = ({ item }) => {
             alt="icon"
             fill
             priority
+            sizes="100%"
             className="w-full h-full"
           />
         </div>

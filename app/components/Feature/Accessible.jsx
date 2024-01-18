@@ -143,6 +143,7 @@ const Accessible = () => {
               alt="Mobile Image"
               priority
               fill
+              sizes="100%"
               className="w-full h-full"
             />
           </div>
@@ -237,6 +238,7 @@ const Accessible = () => {
                   alt="mobile"
                   priority
                   fill
+                  sizes="100%"
                   className="w-full h-full"
                 />
               </div>

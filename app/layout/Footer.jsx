@@ -16,7 +16,7 @@ const Footer = () => {
               <Image
                 src="/logoFooter.png"
                 alt="logo-Footer"
-                className="max-w-full max-h-full"
+                className="w-full h-full"
                 fill
                 sizes="100%"
                 priority
@@ -45,7 +45,13 @@ const Footer = () => {
             <ul className="flex gap-[20px]">
               <li>
                 <Link href="https://www.youtube.com/@theconnecterofficial">
-                  <Image src="/yt.png" alt="yt" width={22} height={20} />
+                  <Image
+                    src="/yt.png"
+                    alt="yt"
+                    width={22}
+                    height={20}
+                    className="w-[22px] h-auto"
+                  />
                 </Link>
               </li>
               <li>
@@ -55,6 +61,7 @@ const Footer = () => {
                     alt="medium"
                     width={22}
                     height={20}
+                    className="w-[22px] h-auto"
                   />
                 </Link>
               </li>
@@ -65,6 +72,7 @@ const Footer = () => {
                     alt="linkedin"
                     width={22}
                     height={20}
+                    className="w-[22px] h-auto"
                   />
                 </Link>
               </li>
@@ -75,6 +83,7 @@ const Footer = () => {
                     alt="facebook"
                     width={22}
                     height={20}
+                    className="w-[22px] h-auto"
                   />
                 </Link>
               </li>
@@ -85,12 +94,19 @@ const Footer = () => {
                     alt="instagram"
                     width={22}
                     height={20}
+                    className="w-[22px] h-auto"
                   />
                 </Link>
               </li>
               <li>
                 <Link href="https://twitter.com/ConnecterDeFi">
-                  <Image src={"/x.svg"} alt="x" width={22} height={20} />
+                  <Image
+                    src={"/x.svg"}
+                    alt="x"
+                    width={22}
+                    height={20}
+                    className="w-[22px] h-auto"
+                  />
                 </Link>
               </li>
             </ul>
