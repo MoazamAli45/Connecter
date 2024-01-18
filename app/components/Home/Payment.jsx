@@ -6,7 +6,7 @@ import React from "react";
 
 const Payment = () => {
   return (
-    <section className="mt-[40px] custom-md:mt-[80px] mb-[40px] overflow-x-hidden ">
+    <section className="my-[40px] overflow-x-hidden ">
       <Wrapper>
         <div className="flex flex-col gap-[30px] items-center">
           <Typography.H2

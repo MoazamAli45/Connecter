@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Typography from "@/app/shared/Typography";
 import Wrapper from "@/app/shared/Wrapper";
 import Image from "next/image";
