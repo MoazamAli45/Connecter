@@ -337,3 +337,10 @@ body {
   font-weight: 400;
   line-height: normal;
 }
+
+/*   payment heading */
+@media (min-width: 900px) {
+  .payment-heading {
+    line-height: 50px !important;
+  }
+}
