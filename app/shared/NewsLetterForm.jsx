@@ -5,24 +5,12 @@ import { EmailInput, TextInput } from "./Input";
 import { SubscribeButton } from "./Button";
 import { useState } from "react";
 import { toast } from "sonner";
+import jsonp from "jsonp";
 
-const NewsLetterForm = ({ styles, status, message, onValidate }) => {
+const NewsLetterForm = ({ styles }) => {
   const [email, setEmail] = useState("");
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
-
-  //   For formating status
-  const getMessage = (message) => {
-    if (!message) {
-      return null;
-    }
-    const result = message?.split("-") ?? null;
-    if ("0" !== result?.[0]?.trim()) {
-      return sanitize(message);
-    }
-    const formattedMessage = result?.[1]?.trim() ?? null;
-    return formattedMessage ? sanitize(formattedMessage) : null;
-  };
 
   const submitHandler = (e) => {
     e.preventDefault();
@@ -30,17 +18,12 @@ const NewsLetterForm = ({ styles, status, message, onValidate }) => {
       toast.error("Please fill all the fields");
       return;
     }
-
-    if (status === "error") {
-      toast.error(getMessage(message));
-      return;
-    }
-
-    // onValidate({
-    //   EMAIL: email,
-    //   FNAME: firstName,
-    //   LNAME: lastName,
-    // });
+    const url = process.env.NEXT_PUBLIC_MAIL_CHIMP_URL;
+    jsonp(`${url}&EMAIL=${email}`, { param: "c" }, (_, data) => {});
+    toast.success("Subscribed Successfully");
+    setEmail("");
+    setFirstName("");
+    setLastName("");
   };
 
   return (
@@ -62,21 +45,13 @@ const NewsLetterForm = ({ styles, status, message, onValidate }) => {
         <EmailInput
           placeholder={"Enter Your Email"}
           value={email}
+          name="EMAIL"
           onChange={(e) => setEmail(e.target.value)}
         />
         <div className="w-full sm:w-1/3 text-center sm:text-start">
-          <SubscribeButton onClick={submitHandler}>
-            {" "}
-            {status === "sending" ? "Loading..." : "Subscribe"}
-          </SubscribeButton>
+          <SubscribeButton onClick={submitHandler}>Subscribe</SubscribeButton>
         </div>
       </div>
-      {"success" === status && (
-        <div
-          className="text-green-200 font-bold pt-2"
-          dangerouslySetInnerHTML={{ __html: sanitize(message) }}
-        />
-      )}
     </form>
   );
 };

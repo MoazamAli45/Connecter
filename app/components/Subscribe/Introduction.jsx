@@ -1,5 +1,4 @@
 import NewsLetterForm from "@/app/shared/NewsLetterForm";
-import NewsletterSubscribe from "@/app/shared/NewsLetterSubscribe";
 import Wrapper from "@/app/shared/Wrapper";
 import Image from "next/image";
 import React from "react";

@@ -1,9 +1,5 @@
-import { SubscribeButton } from "@/app/shared/Button";
-import { EmailInput, TextInput } from "@/app/shared/Input";
 import NewsLetterForm from "@/app/shared/NewsLetterForm";
-import NewsletterSubscribe from "@/app/shared/NewsLetterSubscribe";
 import Wrapper from "@/app/shared/Wrapper";
-import Mail from "@/app/shared/svg/Mail";
 import Link from "next/link";
 import React from "react";
 

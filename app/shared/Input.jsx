@@ -5,6 +5,7 @@ export const EmailInput = ({
   styles = "w-full sm:w-3/5",
   value,
   onChange,
+  name,
   style,
 }) => {
   return (
@@ -15,6 +16,7 @@ export const EmailInput = ({
         value={value}
         onChange={onChange}
         placeholder={placeholder}
+        name={name}
       />
       <Mail className="absolute left-[12px] top-1/2 transform -translate-y-1/2  text-gray-400" />
     </div>
