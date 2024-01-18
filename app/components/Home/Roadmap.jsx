@@ -5,7 +5,7 @@ import Timeline from "../Timeline/Timeline";
 
 const Roadmap = () => {
   return (
-    <section className="custom-md:mt-[80px] custom-md:mb-[40px] my-[40px]">
+    <section className="custom-md:mt-[80px] custom-md:mb-0 my-[40px]">
       <Wrapper>
         <Typography.H2>ROADMAP</Typography.H2>
         <Timeline />

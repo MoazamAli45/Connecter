@@ -4,10 +4,12 @@ import React from "react";
 export const Heading1 = ({
   children,
   styles = "custom-xl:text-[44.8px] font-medium text-[24px] custom-md:text-[37px]  text-center",
+  style,
 }) => {
   return (
     <h1
       className={`  ${styles} text-gradient leading-[30px] sm:leading-[44px] `}
+      style={style}
     >
       {children}
     </h1>
@@ -16,10 +18,12 @@ export const Heading1 = ({
 export const Heading2 = ({
   children,
   styles = "text-[20px] custom-md:text-[26px] custom-xl:text-[33.6px] font-medium text-center",
+  style,
 }) => {
   return (
     <h2
       className={`${styles} text-gradient leading-[25px] sm:leading-[31.4px]  `}
+      style={style}
     >
       {children}
     </h2>

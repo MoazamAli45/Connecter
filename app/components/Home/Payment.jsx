@@ -9,7 +9,12 @@ const Payment = () => {
     <section className="mt-[40px] custom-md:mt-[80px] mb-[40px] overflow-x-hidden ">
       <Wrapper>
         <div className="flex flex-col gap-[30px] items-center">
-          <Typography.H2 styles="text-[20px] custom-md:text-[26px] font-medium text-center  custom-md:w-[50%] mx-auto">
+          <Typography.H2
+            styles="text-[20px] custom-md:text-[26px] custom-xl:text-[40px] font-medium text-center custom-md:w-[70%]  mx-auto"
+            style={{
+              lineHeight: "50px",
+            }}
+          >
             SEND PAYMENTS ANYWHERE, ANYTIME, AND HAVE IT ARRIVE IN SECONDS.
           </Typography.H2>
           <div className="relative w-[300px] max-w-[500px] h-[200px]  sm:w-[700px] sm:max-w-[800px] sm:h-[400px] custom-md:w-[1000px] xl:w-[1260px] custom-md:h-[500px] lg:h-[620px] custom-md:max-w-[1270px] ">
@@ -22,7 +27,14 @@ const Payment = () => {
               className="w-full h-full"
             />
           </div>
-          <SecondaryButton href="/subscribe">Get Started</SecondaryButton>
+          <SecondaryButton
+            href="/subscribe"
+            style={{
+              minHeight: "40px",
+            }}
+          >
+            Get Started
+          </SecondaryButton>
         </div>
       </Wrapper>
     </section>

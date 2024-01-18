@@ -28,12 +28,15 @@ const helpContent = [
 
 const Help = () => {
   return (
-    <section className="my-[40px] ">
+    <section className="mt-[40px] custom-md:mt-[60px]  mb-[80px] image-help-glow ">
       <Wrapper>
         <Typography.H2>HOW THE CONNECTER CAN HELP YOU</Typography.H2>
         <div className="grid grid-cols-2 custom-md:grid-cols-4 gap-x-[15px] gap-y-[20px] mt-[40px]  custom-md:mt-[50px] ">
           {helpContent.map((item) => (
-            <div key={item.id} className=" help-bg sm:min-h-[190px] gap-[15px]">
+            <div
+              key={item.id}
+              className=" help-bg h-[200px] sm:min-h-[190px] gap-[15px] "
+            >
               <div className="custom-xl:w-[62px] custom-xl:h-[62px] w-[45px] h-[45px] relative">
                 <Image
                   src={item.image}

@@ -5,12 +5,14 @@ import Payment from "./components/Home/Payment";
 import Video from "./components/Home/Video";
 import Testimonial from "./components/Home/Testimonial";
 import Roadmap from "./components/Home/Roadmap";
+import SignUpSteps from "./components/Home/SignUpSteps";
 
 export default function Home() {
   return (
     <main>
       <Hero />
       <Help />
+      <SignUpSteps />
       <Payment />
       <Video />
       <Testimonial />
