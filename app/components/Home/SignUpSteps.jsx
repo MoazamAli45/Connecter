@@ -102,7 +102,7 @@ const SignUpSteps = () => {
                         ) : (
                           <div className="min-w-[20px] sm:min-w-[25px] h-[20px] sm:h-[25px] relative">
                             <Image
-                              src="/home/checkBox.png"
+                              src="/home/check-box.png"
                               className="object-contain cursor-pointer"
                               fill
                               alt=""

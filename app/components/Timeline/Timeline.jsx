@@ -3,7 +3,7 @@ import React from "react";
 const Timeline = () => {
   return (
     <>
-      <div className="hidden  custom-md:block  w-full mt-[40px]  h-[80vh]  my-auto  custom-lg:mt-[20px] overflow-x-hidden">
+      <div className="hidden  custom-md:block  w-full mt-[40px]  h-[85vh]  my-auto  custom-lg:mt-[20px] overflow-x-hidden">
         {/* <!-- Vertical Timeline #1 --> */}
 
         <div className="relative pl-8  py-6 group ">
