@@ -232,7 +232,7 @@ const Accessible = () => {
               <p className="text-[16px] text-center leading-[24px] font-normal cursor-pointer text-white">
                 {item.content}
               </p>
-              <div className="relative w-[70%] h-[500px] sm:h-[600px] md:h-[900px] custom-md:h-[1030px]">
+              <div className="relative w-[65%] h-[400px]  custom-sm:w-[60%]  custom-sm:h-[450px] sm:h-[600px] md:h-[900px] custom-md:h-[1030px]">
                 <Image
                   src={item.image}
                   alt="mobile"

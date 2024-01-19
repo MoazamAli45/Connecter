@@ -3,7 +3,7 @@ import React from "react";
 const Timeline = () => {
   return (
     <>
-      <div className="hidden  custom-md:block  w-full mt-[40px] h-[94vh]  min-h-[88vh]  my-auto  custom-lg:mt-[20px] overflow-x-hidden">
+      <div className="hidden  custom-md:block  w-full mt-[40px] h-[98vh] custom-lg:h-[94vh]  min-h-[88vh]  my-auto  custom-lg:mt-[20px] overflow-x-hidden">
         {/* <!-- Vertical Timeline #1 --> */}
 
         <div className="relative pl-8  py-6 group ">
@@ -33,7 +33,7 @@ const Timeline = () => {
         {/* <!-- Item #2 --> */}
         <div className="relative pl-8 sm:pl-32 py-6 group">
           {/* <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) --> */}
-          <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-[90%]  before:mt-[6px] before:mb-0  before:px-[.5px] before:bg-[#1c1c1c] sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-[12px] after:h-[12px]  after:border-[1px] after:box-content after:border-[#1c1c1c] after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
+          <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-[92%]  before:mt-[6px] before:mb-0  before:px-[.5px] before:bg-[#1c1c1c] sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-[12px] after:h-[12px]  after:border-[1px] after:box-content after:border-[#1c1c1c] after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
             <div className="absolute flex w-[50%] -top-[10px] custom-lg:top-[4px] custom-xl:top-[4px] left-[110px]">
               <div className="flex items-center w-1/2">
                 <span className="h-[1px] w-full max-w-full border-[1px] border-solid border-[#1c1c1c] "></span>
@@ -96,7 +96,7 @@ const Timeline = () => {
         <div className="relative pl-8 sm:pl-32 py-6 group">
           {/* <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) --> */}
           <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-[92%]  before:mt-[6px] before:mb-0  before:px-[.5px] before:bg-[#1c1c1c] sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-[12px] after:h-[12px]  after:border-[1px] after:box-content after:border-[#1c1c1c] after:rounded-full sm:after:ml-[6.5rem] after:-translate-x-1/2 after:translate-y-1.5">
-            <div className="absolute flex w-full max-w-full custom-md:-top-[20px]  custom-lg:-top-[10px] custom-xl:top-[6px] left-[110px]">
+            <div className="absolute flex w-full max-w-full custom-md:-top-[20px]  custom-lg:-top-[14px] custom-xl:top-[3px] left-[110px]">
               <div className="flex items-center w-2/3">
                 <span className="h-[1px] w-full border-[1px] border-solid border-[#1c1c1c] "></span>
                 <span className="circle-number w-[50px] h-[45px] text-[16px] custom-xl:w-[65px] custom-xl:h-[60px] custom-xl:text-[22px]">

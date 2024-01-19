@@ -9,7 +9,7 @@ const Subscribe = () => {
       <Wrapper>
         <div className="subscribe-container flex flex-col custom-md:flex-row gap-[10px] sm:gap-[30px] items-center">
           {/*  LEFT SIDE */}
-          <div className="w-full custom-md:w-2/5 subscribe-bg h-[300px] sm:h-[400px]">
+          <div className="w-full custom-md:w-2/5 subscribe-bg h-[350px] sm:h-[400px]">
             <div className=" flex justify-start items-end h-[93%] pl-[20px]">
               <Link
                 href={

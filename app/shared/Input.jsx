@@ -18,7 +18,7 @@ export const EmailInput = ({
         placeholder={placeholder}
         name={name}
       />
-      <Mail className="absolute left-[12px] top-1/2 transform -translate-y-1/2  text-gray-400" />
+      <Mail className="absolute left-[15px] sm:left-[12px] top-1/2 transform -translate-y-1/2  text-gray-400" />
     </div>
   );
 };

@@ -23,10 +23,11 @@ const Hero = () => {
             className="w-full h-full"
           />
         </div>
-        <div className="flex flex-col justify-center items-center gap-8 ">
+        <div className="flex flex-col justify-center items-center gap-8">
           <Typography.H1
             style={{
               marginTop: "15px",
+              paddingBottom: "15px",
             }}
           >
             Connecting you to financial tools that you control, anywhere, at
