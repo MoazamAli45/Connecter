@@ -13,7 +13,7 @@ const Hero = () => {
       <Wrapper styles="px-0 sm:px-8 custom-md:px-14  image-glow ">
         {/*   BG IMAGE  ===========> */}
 
-        <div className="hero-bg -z-[10]  w-[200px] h-[200px]  sm:w-[340px] sm:h-[340px] custom-xl:w-[455px] custom-xl:h-[455px] custom-xL:max-w-[455px]  max-w-[400px]  -top-[60px] sm:-top-[104px]">
+        <div className="hero-bg -z-[10]  w-[200px] h-[200px]  sm:w-[340px] sm:h-[340px] custom-xl:w-[455px] custom-xl:h-[455px]   max-w-[400px]  -top-[60px] sm:-top-[104px]">
           <Image
             src={"/home/hero-bg.png"}
             alt="hero-bg"
