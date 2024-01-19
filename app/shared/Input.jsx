@@ -11,7 +11,7 @@ export const EmailInput = ({
   return (
     <div className={`relative ${styles}`} style={style}>
       <input
-        className="subscribe-input-email w-full " // Adjust padding to make room for the icon
+        className="subscribe-input-email w-full "
         type="email"
         value={value}
         onChange={onChange}

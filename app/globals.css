@@ -185,7 +185,7 @@ body {
   background-position: center top;
   background-size: 100%;
 
-  height: 80vh;
+  height: 90vh;
   width: 100%;
 }
 @media (max-width: 991px) {
@@ -263,6 +263,19 @@ body {
   padding: 15px 20px;
   color: white;
 }
+
+@media (max-width: 640px) {
+  .subscribe-input-text,
+  .subscribe-input-email {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+  .subscribe-btn {
+    padding: 10px 30px !important;
+    font-size: 14px !important;
+  }
+}
+
 .subscribe-input-text:focus {
   outline: none;
 }

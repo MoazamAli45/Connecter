@@ -18,7 +18,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <header className="  bg-[#202020]">
+      <header className="  bg-[#202020] h-[90px]  custom-md:h-[105px]">
         <div className="w-full max-w-[1400px] sm:px-6 py-[20px] mx-auto">
           <nav className="mx-6 sm:mx-8 custom-md:mx-14 flex justify-between items-center">
             <div className="flex  gap-2 ">

@@ -3,12 +3,12 @@ import React from "react";
 const Timeline = () => {
   return (
     <>
-      <div className="hidden  custom-md:block  w-full mt-[40px]  h-[85vh]  my-auto  custom-lg:mt-[20px] overflow-x-hidden">
+      <div className="hidden  custom-md:block  w-full mt-[40px] h-[94vh]  min-h-[88vh]  my-auto  custom-lg:mt-[20px] overflow-x-hidden">
         {/* <!-- Vertical Timeline #1 --> */}
 
         <div className="relative pl-8  py-6 group ">
           {/* <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) --> */}
-          <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-[91%]  before:mt-[6px] before:mb-0  before:px-[.5px] before:bg-[#1c1c1c] sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 ">
+          <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-[95%]  before:mt-[6px] before:mb-0  before:px-[.5px] before:bg-[#1c1c1c] sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 ">
             <span className="circle-number w-[50px] h-[45px] text-[16px] custom-xl:w-[60px] custom-xl:h-[60px] custom-xl:text-[22px] absolute left-2 sm:left-0  sm:ml-[6.5rem] -translate-x-1/2 ">
               01
             </span>
@@ -27,6 +27,7 @@ const Timeline = () => {
               • Conception & Ideation
             </h5>
           </div>
+          <div className="h-[88px]"></div>
         </div>
 
         {/* <!-- Item #2 --> */}
@@ -57,7 +58,7 @@ const Timeline = () => {
             </div>
           </div>
           {/*   FOR CONTENT */}
-          <div className="h-[80px]"></div>
+          <div className="h-[90px]"></div>
         </div>
 
         {/* <!-- Item #3 --> */}
@@ -88,7 +89,7 @@ const Timeline = () => {
             </div>
           </div>
           {/*   FOR CONTENT */}
-          <div className="h-[80px]"></div>
+          <div className="h-[90px]"></div>
         </div>
 
         {/* <!-- Item #4 --> */}

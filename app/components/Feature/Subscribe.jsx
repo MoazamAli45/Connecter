@@ -40,11 +40,6 @@ const Subscribe = () => {
               </p>
               {/*   FORM  */}
 
-              {/*    TODO MAIL CHIMP SUBSCRIBE */}
-              {/* <NewsletterSubscribe
-                styles={"flex flex-col custom-md:mt-[10px]"}
-              /> */}
-
               <NewsLetterForm styles={"flex flex-col custom-md:mt-[10px]"} />
             </div>
           </div>
