@@ -9,7 +9,7 @@ const Timeline = () => {
         <div className="relative pl-8  py-6 group ">
           {/* <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) --> */}
           <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-[95%]  before:mt-[6px] before:mb-0  before:px-[.5px] before:bg-[#1c1c1c] sm:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 ">
-            <span className="circle-number w-[50px] h-[45px] text-[16px] custom-xl:w-[60px] custom-xl:h-[60px] custom-xl:text-[22px] absolute left-2 sm:left-0  sm:ml-[6.5rem] -translate-x-1/2 ">
+            <span className="circle-number w-[50px] h-[50px] text-[16px] custom-xl:w-[60px] custom-xl:h-[60px] custom-xl:text-[22px] absolute left-2 sm:left-0  sm:ml-[6.5rem] -translate-x-1/2 ">
               01
             </span>
           </div>
@@ -129,7 +129,7 @@ const Timeline = () => {
         <div className="relative pl-8  py-6 group ">
           {/* <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) --> */}
           <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 custom-md:before:left-0 before:h-[92%]  before:mt-[6px] before:mb-0  before:px-[.5px] before:bg-[#1c1c1c] custom-md:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 ">
-            <span className="circle-number w-[50px] h-[45px] text-[16px] custom-xl:w-[65px] custom-xl:h-[60px] custom-xl:text-[22px] absolute left-2 custom-md:left-0  custom-md:ml-[6.5rem] -translate-x-1/2 ">
+            <span className="circle-number w-[50px] h-[50px] text-[16px] custom-xl:w-[65px] custom-xl:h-[60px] custom-xl:text-[22px] absolute left-2 custom-md:left-0  custom-md:ml-[6.5rem] -translate-x-1/2 ">
               01
             </span>
           </div>
@@ -152,7 +152,7 @@ const Timeline = () => {
         <div className="relative pl-8  py-6 group ">
           {/* <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) --> */}
           <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 custom-md:before:left-0 before:h-[92%]  before:mt-[6px] before:mb-0  before:px-[.5px] before:bg-[#1c1c1c] custom-md:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 ">
-            <span className="circle-number w-[50px] h-[45px] text-[16px] custom-xl:w-[65px] custom-xl:h-[60px] custom-xl:text-[22px] absolute left-2 custom-md:left-0  custom-md:ml-[6.5rem] -translate-x-1/2 ">
+            <span className="circle-number w-[50px] h-[50px] text-[16px] custom-xl:w-[65px] custom-xl:h-[60px] custom-xl:text-[22px] absolute left-2 custom-md:left-0  custom-md:ml-[6.5rem] -translate-x-1/2 ">
               02
             </span>
           </div>
@@ -175,7 +175,7 @@ const Timeline = () => {
         <div className="relative pl-8  py-6 group ">
           {/* <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) --> */}
           <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 custom-md:before:left-0 before:h-[92%]  before:mt-[6px] before:mb-0  before:px-[.5px] before:bg-[#1c1c1c] custom-md:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 ">
-            <span className="circle-number w-[50px] h-[45px] text-[16px] custom-xl:w-[65px] custom-xl:h-[60px] custom-xl:text-[22px] absolute left-2 custom-md:left-0  custom-md:ml-[6.5rem] -translate-x-1/2 ">
+            <span className="circle-number w-[50px] h-[50px] text-[16px] custom-xl:w-[65px] custom-xl:h-[60px] custom-xl:text-[22px] absolute left-2 custom-md:left-0  custom-md:ml-[6.5rem] -translate-x-1/2 ">
               03
             </span>
           </div>
@@ -198,7 +198,7 @@ const Timeline = () => {
         <div className="relative pl-8  py-6 group ">
           {/* <!-- Vertical line (::before) ~ Date ~ Title ~ Circle marker (::after) --> */}
           <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 custom-md:before:left-0 before:h-[92%]  before:mt-[6px] before:mb-0  before:px-[.5px] before:bg-[#1c1c1c] custom-md:before:ml-[6.5rem] before:self-start before:-translate-x-1/2 before:translate-y-3 ">
-            <span className="circle-number w-[50px] h-[45px] text-[16px] custom-xl:w-[65px] custom-xl:h-[60px] custom-xl:text-[22px] absolute left-2 custom-md:left-0  custom-md:ml-[6.5rem] -translate-x-1/2 ">
+            <span className="circle-number w-[50px] h-[50px] text-[16px] custom-xl:w-[65px] custom-xl:h-[60px] custom-xl:text-[22px] absolute left-2 custom-md:left-0  custom-md:ml-[6.5rem] -translate-x-1/2 ">
               04
             </span>
           </div>
